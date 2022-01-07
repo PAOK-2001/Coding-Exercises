@@ -10,6 +10,7 @@ using namespace std;
 
 class Solution {
 // Approach: scan the price array looking for consecutive increments, resulting in  profit add up all profit that can be made
+// Time Complexity O(N)
 public:
     int maxProfit(vector<int>& prices) {
         int maxProfit = 0;
@@ -27,6 +28,5 @@ public:
 int main(){
     vector<int> test = {7,1,5,3,6,4};
     Solution s1;
-
     cout<<s1.maxProfit(test)<<endl;
 }
